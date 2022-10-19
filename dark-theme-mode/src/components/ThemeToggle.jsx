@@ -10,6 +10,8 @@ const Btn = styled.button`
   cursor: pointer;
   border-radius: 10px;
   padding: 7px;
+  color: ${({ theme }) => theme.textColor};
+  box-shadow: 0 0 8px 0 ${({ theme }) => theme.boxShadow};
 `;
 
 function ThemeToggle({ toggle, mode }) {

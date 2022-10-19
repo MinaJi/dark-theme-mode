@@ -1,0 +1,28 @@
+{
+  "catList": [
+    {
+      "breeds": "british Shorthair",
+      "imgUrl": "https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/2/2022/08/shutterstock_792034306-1.jpg"
+    },
+    {
+      "breeds": "Bombay",
+      "imgUrl": "https://cattitudedaily.com/wp-content/uploads/2021/05/bombay-cat-full-body-1024x732.jpg"
+    },
+    {
+      "breeds": "Russian Blue",
+      "imgUrl": "https://sepicat.com/wp-content/uploads/2021/11/13_-Perfil-de-raza-Azul-Ruso.png"
+    },
+    {
+      "breeds": "Scottish Fold",
+      "imgUrl": "https://i.pinimg.com/originals/83/70/0f/83700f7a3ecf6e39e506bad95ae95de7.jpg"
+    },
+    {
+      "breeds": "Siamese",
+      "imgUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F08%2F01%2Fsiamese-cat-couch_525025708-2000.jpg"
+    },
+    {
+      "breeds": "Japanese Bobtail",
+      "imgUrl": "https://tica.org/images/TopCats/2021/BOB/BOB-Japanese-Bobtail-CAT_WYNDCHYMES-KATSUMOTO.png"
+    }
+  ]
+}
