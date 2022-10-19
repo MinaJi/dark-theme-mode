@@ -19,9 +19,17 @@ const StyledDiv = styled.div`
 `;
 
 const StyledGrid = styled(Grid)`
-  border: 1px solid #d8d8d8;
+  border: 1px solid ${({ theme }) => theme.borderColor};
   border-radius: 30px;
   padding: 20px;
+`;
+
+const StyledText = styled.p`
+  font-size: 25px;
+  padding-top: 20px;
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+  color: ${({ theme }) => theme.textColor};
 `;
 
 // const StyledDiv = styled.div`
@@ -36,19 +44,14 @@ const StyledGrid = styled(Grid)`
 function Profile() {
   return (
     <>
-      <StyledGrid
-        width="350px"
-        container
-        direction="column"
-        alignItems="center"
-      >
-        <Grid item xs={12}>
+      <StyledGrid container direction="column" alignItems="center">
+        <Grid item>
           <StyledDiv>
             <Img src="https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/2/2022/08/shutterstock_792034306-1.jpg" />
           </StyledDiv>
         </Grid>
-        <Grid item xs={12}>
-          <p>Hi, I'm british shorthair</p>
+        <Grid item>
+          <StyledText>Hi, I'm british shorthair cat💕</StyledText>
         </Grid>
       </StyledGrid>
     </>
